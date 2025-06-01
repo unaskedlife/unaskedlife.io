@@ -1,0 +1,49 @@
+body {
+  background-color: #000;
+  color: #ddd;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #ff1a1a;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background: #111;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+}
+
+nav .active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+}
+
+.blog-list article {
+  border-bottom: 1px solid #333;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111;
+  color: #999;
+}
